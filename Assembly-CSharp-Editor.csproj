@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D4BD28F8-0B5C-62C4-AE2C-2F5FF3174076}</ProjectGuid>
+    <ProjectGuid>{F00410D4-144D-8EE3-CDD2-CFB1D4BBB3F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,7 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cartoon Heroes\Scripts\SetCharacter\Editor\SetCharacterEditor.cs" />
+    <Compile Include="Assets\Misc\Cartoon Heroes\Scripts\SetCharacter\Editor\SetCharacterEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -811,12 +811,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3A13C801-EB52-4179-518E-4AEF01305E7C}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{5448303C-86A5-7298-5C36-8ED7AC103415}</Project>
+      <Project>{6287BEF0-7CF4-BF9F-814C-A803E2206BB8}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

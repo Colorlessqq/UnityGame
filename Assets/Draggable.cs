@@ -12,7 +12,7 @@ public class Draggable : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDragH
     {
         print("OnBeginDrag");
         original_parent = this.transform.parent;
-        //this.transform.SetParent(this.transform.parent.parent);
+        this.transform.SetParent(this.transform.parent.parent);
         GetComponent<CanvasGroup>().blocksRaycasts = false;
 
 
@@ -26,9 +26,8 @@ public class Draggable : MonoBehaviour,IBeginDragHandler, IEndDragHandler,IDragH
     public void OnEndDrag(PointerEventData eventData)
     {
         print("OnEndDrag");
-
-        this.transform.SetParent(this.transform.parent.parent);
         this.transform.SetParent(original_parent);
+ 
         GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
 

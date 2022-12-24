@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Warior : MonoBehaviour,
+public class Warior : BaseEntity
 {
     // Can - kalkan - hasar - özel yetenek - bonuslar 
     // Start is called before the first frame update
@@ -16,5 +16,6 @@ public class Warior : MonoBehaviour,
     private void OnMouseDown()
     {
         print("yey you clik to me");
+        // show possibilities
     }
 }
